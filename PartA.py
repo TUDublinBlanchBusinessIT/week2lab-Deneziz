@@ -1,7 +1,9 @@
 #Denys Bondarenko
 #10/02/2025
 #A Program to Print Steps 1 to 9 to the Screen
-def printSteps():
+def printSteps(a,b):
+    for i in range(a,b):
+        print(i)
     print("Step 4")
     print("Step 5")
     print("Step 6")
